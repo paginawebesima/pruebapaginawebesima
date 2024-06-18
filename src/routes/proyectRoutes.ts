@@ -81,7 +81,7 @@ router.post('/:projectId/tasks/:taskId/status',
     TaskController.updateStatus
 )
 
-router.get("/prueba", (req, res) => {
+router.get("/prueba/hola", (req, res) => {
     const htmlResponse = `
       <html>
         <head>
